@@ -21,7 +21,7 @@ The benchmarking script evaluates the algorithms based on:
 - **Quick Sort Anomaly:** During the $n=50,000$ test, Quick Sort experienced a significant performance drop on "Flat" data distributions (taking ~80s). This highlights the vulnerability of certain partitioning schemes to high-frequency duplicates.
 - **Insertion Sort Efficiency:** Insertion Sort outperformed all other algorithms on "Sorted" and "Nearly Sorted" data at small to medium scales.
 
-## 🛠️ How to Run
+##  How to Run
 1. Ensure you have Python 3.x installed.
 2. Clone the repository:
    ```bash
